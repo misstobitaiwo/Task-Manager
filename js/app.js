@@ -15,6 +15,7 @@ let LIST, id;
 
 //get item from lcl strg
 let data = localStorage.getItem("TODO");
+console.log("data", data)
 
 //check if data is not empty
 if(data){
